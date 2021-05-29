@@ -1,0 +1,138 @@
+  {
+    "name": "Demac Geo IP",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Warning"
+      },
+      {
+        "type": "paragraph",
+        "content": "It is possible to make breaking changes to your store here. Do not edit these settings unless you're absolutely sure of what you're doing!"
+      },
+      {
+        "type": "header",
+        "content": "General"
+      },
+      {
+        "id": "demac_geoip_enabled",
+        "type": "checkbox",
+        "default": false,
+        "label": "Enable Geo IP"
+      },
+      {
+        "type": "header",
+        "content": "Primary Store"
+      },
+      {
+        "type": "paragraph",
+        "content": "The primary store is the one that users anywhere will see by default."
+      },
+      {
+        "id": "demac_geoip_primary_domain",
+        "type": "text",
+        "label": "Primary Domain",
+        "info": "Enter the domain of the primary store (Do NOT include www or http:\/\/ or https:\/\/)"
+      },
+      {
+        "id": "demac_geoip_primary_hashcode",
+        "type": "text",
+        "label": "Primary Hash Code",
+        "info": "The hash code can be entered at the end of a URL to override the Geo IP redirect (ex. mystore.com/#us)"
+      },
+      {
+        "id": "demac_geoip_primary_lang",
+        "type": "text",
+        "label": "Primary Language Code",
+        "info": "Enter the language code for this store, to be used by the canonical/alternate meta tags (ex. en-us)"
+      },
+      {
+        "id": "demac_geoip_primary_whitelist",
+        "type": "textarea",
+        "label": "Whitelist URL Paths",
+        "info": "Enter a comma-separated list of url paths that should always use the primary store (ex. \/apps\/store-locator,\/blogs)"
+      },
+      {
+        "type": "header",
+        "content": "Alternate Stores"
+      },
+      {
+        "type": "paragraph",
+        "content": "Alternate stores will only be visited by users from specific geographical locations."
+      },
+      {
+        "type": "header",
+        "content": "Alternate Store"
+      },
+      {
+        "type": "paragraph",
+        "content": "Enter settings for an alternate store"
+      },
+      {
+        "id": "demac_geoip_alternate_1_domain",
+        "type": "text",
+        "label": "Store Domain",
+        "info": "Enter the domain of store (Do NOT include www or http:\/\/ or https:\/\/)"
+      },
+      {
+        "id": "demac_geoip_alternate_1_hashcode",
+        "type": "text",
+        "label": "Store Hash Code",
+        "info": "The hash code can be entered at the end of a URL to override the Geo IP redirect (ex. mystore.ca/#ca)"
+      },
+      {
+        "id": "demac_geoip_alternate_1_lang",
+        "type": "text",
+        "label": "Store Language Code",
+        "info": "Enter the language code for this store, to be used by the canonical/alternate meta tags (ex. en-ca)"
+      },
+      {
+        "id": "demac_geoip_alternate_1_ccs",
+        "type": "textarea",
+        "label": "Store Country Codes",
+        "info": "Enter a comma-separated list of the country codes that should redirect to the store (example: CA)"
+      },
+      {
+        "type": "header",
+        "content": "Alternate Store"
+      },
+      {
+        "type": "paragraph",
+        "content": "Enter settings for an alternate store"
+      },
+      {
+        "id": "demac_geoip_alternate_2_domain",
+        "type": "text",
+        "label": "Store Domain",
+        "info": "Enter the domain of store (Do NOT include www or http:\/\/ or https:\/\/)"
+      },
+      {
+        "id": "demac_geoip_alternate_2_hashcode",
+        "type": "text",
+        "label": "Store Hash Code",
+        "info": "The hash code can be entered at the end of a URL to override the Geo IP redirect (ex. mystore.eu/#eu)"
+      },
+      {
+        "id": "demac_geoip_alternate_3_lang",
+        "type": "text",
+        "label": "Store Language Code",
+        "info": "Enter the language code for this store, to be used by the canonical/alternate meta tags (ex. fr-fr)"
+      },
+      {
+        "id": "demac_geoip_alternate_2_ccs",
+        "type": "textarea",
+        "label": "Store Country Codes",
+        "info": "Enter a comma-separated list of the country codes that should redirect to the store (example: FR,UK,BG)"
+      },
+      {
+        "type": "header",
+        "content": "Store Switcher"
+      },
+      {
+        "id": "demac_geoip_storeswitcher",
+        "type": "checkbox",
+        "label": "Enable Store Switcher",
+        "info": "Check if you want to enable a store switcher on your store. Be sure you enable or disable on all stores equally",
+        "default": false
+      }
+    ]
+  }
